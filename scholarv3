@@ -1,0 +1,13 @@
+gabescores = {'R1':0, 'R2':20, 'R3':30, 'QF':40, 'SF':40, 'F':60, }
+def scores(name):
+	if name == 'Gabe':
+		x = name
+		y = gabescores['R1']
+		z = gabescores['R2']
+		q = gabescores['R3']
+		w = gabescores['QF']
+		e = gabescores['SF']
+		r = gabescores['F']
+	print("\n%s got %s points in round 1, %s points in round 2, %s points in round 3, %s points in the Quarterfinals, %s points in the Semifinals, and %s points in the Finals."%( x, y, z, q, w, e, r))
+
+scores('Gabe')
